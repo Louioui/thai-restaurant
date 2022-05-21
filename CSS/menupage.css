@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: flex-start;
+    padding: 10px;
+    list-style: none;
+    color: black;
+
+}
+.nav-container a:hover{
+color: #0d00ff;
+
+}
+.banner{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 90px;
+  
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
